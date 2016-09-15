@@ -1,19 +1,16 @@
 /* CSS declarations go here */
 body {
   font-family: sans-serif;
-  background-color: #315481;
-  background-image: linear-gradient(to bottom, #315481, #918e82 100%);
+  color:#6d6d6d;
+  background: #F8F8F8;
   background-attachment: fixed;
-
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-
   padding: 0;
   margin: 0;
-
   font-size: 14px;
 }
 
@@ -25,10 +22,12 @@ body {
 }
 
 header {
-  background: #d2edf4;
-  background-image: linear-gradient(to bottom, #d0edf5, #e1e5f0 100%);
-  padding: 20px 15px 15px 15px;
-  position: relative;
+background: #457fca; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #457fca , #5691c8); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #457fca , #5691c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+padding: 20px 15px 15px 15px;
+position: relative;
+color:#fff;
 }
 
 #login-buttons {
@@ -51,11 +50,12 @@ form {
 
 .new-task input {
   box-sizing: border-box;
-  padding: 10px 0;
-  background: transparent;
+  padding: 10px;
+  background: #fff;
   border: none;
   width: 100%;
   padding-right: 80px;
+  color:#aeaeae;
   font-size: 1em;
 }
 
